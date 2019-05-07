@@ -11,6 +11,8 @@ import XCTest
 
 class KataCalculatorTests: XCTestCase {
 
+    let calculator = Calculator()
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -19,8 +21,18 @@ class KataCalculatorTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_when_input_is_zero_the_result_is_zero() {
+        let value = calculator.add(numbers: "")
+        XCTAssertEqual(0, value)
+    }
+    
+    func test_when_the_input_is_a_single_value_the_result_is_this_value() {
+        let value = calculator.add(numbers: "1")
+        XCTAssertEqual(1, value)
+    }
+    
+    func test_when_the_input_are_two_values_the_result_is_the_sum_of_them() {
+        let value = calculator.add(numbers: "1,2")
+        XCTAssertEqual(3, value)
     }
 }

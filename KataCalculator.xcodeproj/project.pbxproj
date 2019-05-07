@@ -13,6 +13,7 @@
 		D5D320D622818A9800919899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D320D522818A9800919899 /* Assets.xcassets */; };
 		D5D320D922818A9800919899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D320D722818A9800919899 /* LaunchScreen.storyboard */; };
 		D5D320E422818A9800919899 /* KataCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D320E322818A9800919899 /* KataCalculatorTests.swift */; };
+		D5D320EF2281964A00919899 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D320EE2281964A00919899 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D5D320DF22818A9800919899 /* KataCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D320E322818A9800919899 /* KataCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataCalculatorTests.swift; sourceTree = "<group>"; };
 		D5D320E522818A9800919899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D320EE2281964A00919899 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				D5D320D522818A9800919899 /* Assets.xcassets */,
 				D5D320D722818A9800919899 /* LaunchScreen.storyboard */,
 				D5D320DA22818A9800919899 /* Info.plist */,
+				D5D320EE2281964A00919899 /* Calculator.swift */,
 			);
 			path = KataCalculator;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				D5D320D122818A9600919899 /* ViewController.swift in Sources */,
 				D5D320CF22818A9600919899 /* AppDelegate.swift in Sources */,
+				D5D320EF2281964A00919899 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
